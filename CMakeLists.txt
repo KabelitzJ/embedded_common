@@ -34,7 +34,10 @@ set(
 )
 
 idf_component_register(
-  SRCS ${SOURCES}
-  INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/include
-  REQUIRES driver
+  SRCS 
+    ${SOURCES}
+  INCLUDE_DIRS
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
+  REQUIRES 
+    driver
 )
